@@ -234,3 +234,53 @@ default alignement is bottom center.
 
 - crash sometime occurs with some swf backgrounds, it's due to a buggy swf implementation in Attract-Mode, not the pcca script itself.
 
+
+### How To Use:
+1. Download the latest PCCA layout from this repository.
+
+Optional: download video transitions pack I have prepared:
+https://mega.nz/file/RBdUWTzb#e7D5HmsqTMW32Z0vKg-rfGjnC5yY-rFpETDlqSDIu_w
+
+2. Unzip and from the 'modules' folder copy the 'hs-animate' folder to your attract/modules/ folder.
+From the 'layouts' folder, copy the 'pcca' folder to your attract/layouts/ folder.
+
+3. Within your attract/layouts/pcca/ folder, create a new folder called 'media' (for example) - this is where you will store all your Hyperspin themes.
+If you want, you can place this folder outside of the 'pcca' main folder, but for the purpose of this tutorial it will be within it.
+
+4. To make things easy, I highly recommend downloading the official Hyperspin install so we can use it's default media library as a basis for our own themes folder:
+https://hyperspin-fe.com/files/file/17585-hyperspin-151-full-package/
+Unzip it and copy the 'Media' folder CONTENTS to our own 'media' folder that we created within 'pcca'.
+When done, you can delete the Hyperspin install folder and zip file as we have no more use for it!
+
+If you take a look at these default themes you will see two types of folders: 'Main Menu' and folders named after systems (like 'MAME' or 'Sega CD' for example).
+Within the 'Main Menu' folder you will place all the Hyperspin themes that you want 'pcca' to use for the main menu.
+Each system folder will house the Hyperspin themes relevant to that system.
+In both cases, the Hyperspin themes must have the same name as the System Display names in Attract Mode.
+
+
+5. Launch Attract Mode and go to Attract Mode's general options screen (called "configure") by pressing the 'Tab' button:
+In Configure->Startup Mode set to 'Show Display Menu' and in Displays->Display Menu Options->'Allow Exit from 'Display Menu' set to 'No'.
+THIS IS MANDATORY and pcca will not work properly without this step.
+
+6. Go to Attract Mode Configure->Displays->'Display Menu' Options->Menu Style / Layout and set it to 'pcca'.
+This tells attract mode to use pcca as it's main menu theme. This is not mandatory and should be done only if you want pcca as your main menu layout as well.
+
+7. Set each system you have in the display menu list to 'pcca' if you want this system to use Hyperspin themes. For example:
+Configure->Displays->Mame->Layout and set to 'pcca'
+-OR-
+Configure->Displays->Nintendo Entertainment System->Layout and set to 'pcca'
+
+8. In any of the systems that uses pcca, go to 'Layout Options' and set the 'Media Path' option to where you store
+your Hyperspin themes. for example: C:\attract\layouts\pcca\media
+This needs to be done ONLY ONCE. pcca will use this path as a starting point to find all the Hyperspin themes that you have.
+Example: 'Configure->Displays->Mame->Layout Options->Media Path' and insert the above path to the 'media' folder.
+
+
+Short Video of setting it up through the Attract Mode menus:
+https://youtu.be/rH6FBcYWPSU
+
+
+PCCA also knows how to work with unified video themes such as those that are available from emumovies.com. This capability comes in handy if an original hyperspin theme
+doesn't work properly (there are very few of those). Just copy the unified video to the relevant system's Themes folder (for example "C:\attract\layouts\pcca\Media\Mame\Themes") making sure it has the same name as non-working theme file.
+
+You should now be able to run and use any original Hyperspin theme on your Attract Mode setup.
