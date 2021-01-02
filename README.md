@@ -1,4 +1,4 @@
-# PCCA Hyperspin theme conversion for Attract-Mode
+# Hyperspin layout for the Attract Mode frontend
 
 ### Version 1.15 
 This script is intended to work with the Attract-Mode frontend http://attractmode.org/ , it intends to reproduce the real hyperspin experience in HD as precise as possible using the same themes and folder structure as a real Hyperspin setup.
