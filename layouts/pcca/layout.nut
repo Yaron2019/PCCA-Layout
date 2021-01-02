@@ -57,9 +57,10 @@ class UserConfig {
 	</ label="Keyboard layout", help="Choose the keyboard layout", options="qwerty,azerty,alpha", order=M_order++ />keyboard_layout="alpha";
 }
 
-local t = clock()
+//Enable this for plus module testing
+/*local t = clock()
 fe.load_module("plus")
-print ( format( "Plus loaded in: %u ms\n", (::clock() - t) * 1000 ))
+print ( format( "Plus loaded in: %u ms\n", (::clock() - t) * 1000 ))*/
 
 flw <- fe.layout.width.tofloat();
 flh <- fe.layout.height.tofloat();
