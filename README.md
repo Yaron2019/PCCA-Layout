@@ -107,8 +107,8 @@ Enable game info random text colors
 ### Reload backgrounds
 Force reloading background transitions when navigating on default theme
 
-### Video CRT special effect
-Add crt special effect to video snap
+### Video snap CRT effect
+Enable CRT special effect for video snaps
 
 ### Special artwork
 Enable or disable the special artwork (if set to 'No', special artwork is disabled globally)
