@@ -248,8 +248,8 @@ From the 'layouts' folder, copy the 'pcca' folder to your attract/layouts/ folde
 If you want, you can place this folder outside of the 'pcca' main folder, but for the purpose of this tutorial it will be within it.
 
 4. To make things easy, I highly recommend downloading the official Hyperspin install so we can use it's default media library as a basis for our own themes folder:
-
 https://hyperspin-fe.com/files/file/17585-hyperspin-151-full-package/
+
 Unzip it and copy the 'Media' folder CONTENTS to our own 'media' folder that we created within 'pcca'.
 When done, you can delete the Hyperspin install folder and zip file as we have no more use for it!
 
