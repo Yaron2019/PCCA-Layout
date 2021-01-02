@@ -117,6 +117,7 @@ Choose the key to initiate a search
 Choose the search method
 
 
+
 ## Media
 
 ### Folders structure
