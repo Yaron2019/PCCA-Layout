@@ -233,7 +233,7 @@ default alignement is bottom center.
 - crash sometime occurs with some swf backgrounds, it's due to a buggy swf implementation in Attract-Mode, not the pcca script itself.
 
 
-## How To Use:
+# How To Use:
 1. Download the latest PCCA layout from this repository.
 
 Optional: download video transitions pack I have prepared:
