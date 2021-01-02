@@ -31,6 +31,10 @@ Unified video themes can be used. Place videos named as system name / rom name i
 
 # Layouts Options
 
+### Media Path
+Path to your hyperspin media, for example c:\attract\layouts\pcca\media
+
+
 ### Animated Backgrounds
 Enable or disable bakgrounds transitions.
 
