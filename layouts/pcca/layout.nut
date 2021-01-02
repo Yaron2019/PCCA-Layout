@@ -16,45 +16,45 @@ local M_order = 0;
 local divider = "----";
 
 class UserConfig {
-    </ label="Media path", help="Path to the HyperSpin media", options="", order=M_order++ /> medias_path=""
-    </ label="Low GPU mode", help="'Yes' = Low GPU (Intel HD,.. less backgrounds transition), 'No' = Recent GPU", options="Yes, No", order=M_order++ /> LowGPU="No"
-    </ label="Interface language", help="Preferred user language", options="Fr, En", order=M_order++ /> user_lang="En"
-    </ label="Main menu stats", help="Enable or disable the main menu stats system", options="Yes, No", order=M_order++ /> stats_main = "Yes"
+	</ label="Media path", help="Path to the HyperSpin media", options="", order=M_order++ /> medias_path=""
+	</ label="Low GPU mode", help="'Yes' = Low GPU (Intel HD,.. less backgrounds transition), 'No' = Recent GPU", options="Yes, No", order=M_order++ /> LowGPU="No"
+	</ label="Interface language", help="Preferred user language", options="Fr, En", order=M_order++ /> user_lang="En"
+	</ label="Main menu stats", help="Enable or disable the main menu stats system", options="Yes, No", order=M_order++ /> stats_main = "Yes"
 	</ label= divider, help=" ", options = " ", order=M_order++ /> paramxx1 = " "
 
-    </ label="Select wheel type", help="Switch between a vertical or rounded wheel", options="Rounded,Vertical", order=M_order++ /> wheel_type="Rounded"
-    </ label="Wheel offset", help="Wheel's X Offset ocoordinates", options="", order=M_order++ /> wheel_offset="240"
-    </ label="Number of wheel slots", help="Number of wheel slots to display", options="4,6,8,10,12",order=M_order++ /> wheel_slots="10";
-    </ label="Wheel transition time", help="Time in milliseconds for wheel spin", options="1,25,50,75,100,125,150,175,200,400", order=M_order++ /> wheel_transition_ms="25"
-    </ label="Wheel fade time", help="Time in seconds for wheel fade out (0 disables fading)", options="0,0.5,1.0,1.5,2.0,2.5,3.5", order=M_order++ /> wheel_fade_time="0.5"
- 	</ label="Wheel fade alpha", help="Alpha value of the faded wheel", options="0,10,20,30,40,50,60,75,100,125,150,175,200,225,255", order=M_order++ /> wheel_alpha="30"
-    </ label="Show wheel pointer", help="Show or hide wheel pointer", options="Yes,No", order=M_order++ /> enable_wheel_pointer="Yes"
-    </ label="Wheel pointer position", help="Minimal or Nomral wheel pointer position", options="Minimal,Normal", order=M_order++ /> wheel_pointer_offset="Normal"
-    </ label="Wheel sounds", help="Enable sounds when navigating the wheel", options="Yes, No", order=M_order++ /> sounds_game_sounds = "Yes"
+	</ label="Select wheel type", help="Switch between a vertical or rounded wheel", options="Rounded,Vertical", order=M_order++ /> wheel_type="Rounded"
+	</ label="Wheel offset", help="Wheel's X Offset ocoordinates", options="", order=M_order++ /> wheel_offset="240"
+	</ label="Number of wheel slots", help="Number of wheel slots to display", options="4,6,8,10,12",order=M_order++ /> wheel_slots="10";
+	</ label="Wheel transition time", help="Time in milliseconds for wheel spin", options="1,25,50,75,100,125,150,175,200,400", order=M_order++ /> wheel_transition_ms="25"
+	</ label="Wheel fade time", help="Time in seconds for wheel fade out (0 disables fading)", options="0,0.5,1.0,1.5,2.0,2.5,3.5", order=M_order++ /> wheel_fade_time="0.5"
+	</ label="Wheel fade alpha", help="Alpha value of the faded wheel", options="0,10,20,30,40,50,60,75,100,125,150,175,200,225,255", order=M_order++ /> wheel_alpha="30"
+	</ label="Show wheel pointer", help="Show or hide wheel pointer", options="Yes,No", order=M_order++ /> enable_wheel_pointer="Yes"
+	</ label="Wheel pointer position", help="Minimal or Nomral wheel pointer position", options="Minimal,Normal", order=M_order++ /> wheel_pointer_offset="Normal"
+	</ label="Wheel sounds", help="Enable sounds when navigating the wheel", options="Yes, No", order=M_order++ /> sounds_game_sounds = "Yes"
 	</ label= divider, help=" ", options = " ", order=M_order++ /> paramxx2 = " "
 
-    </ label="Override transitions", help="Use FLV override video transitions when navigating the wheel", options="Yes, No", order=M_order++ /> themes_override_transitions="Yes"
-    </ label="Animated backgrounds", help="Use background transitions", options="Yes, No", order=M_order++ /> themes_animated_backgrounds="Yes"
-    </ label="Theme aspect", help="Stretch or Center the theme on the screen", options="Stretch, Center", order=M_order++ /> themes_aspect="Stretch"
-    </ label="Show bezels", help="If display is centered, use bezels to replace pixel stretched border", options="Yes, No", order=M_order++ /> themes_bezels="Yes"
-    </ label="Bezels on top", help="Put bezel on top of the theme artworks", options="Yes, No", order=M_order++ /> themes_bezels_on_top="Yes"
-    </ label="Background stretch", help="Always stretch backgrounds", options="Yes, No", order=M_order++ /> themes_background_stretch="No"
-    </ label="Show game info", help="Show or hide game info", options="Yes, No", order=M_order++ /> themes_infos_visibility = "Yes"
-    </ label="Game info coordinates", help="Game info x,y coordinates on the screen. If empty = left bottom", options="", order=M_order++ /> themes_infos_coord = "25,810"
+	</ label="Override transitions", help="Use FLV override video transitions when navigating the wheel", options="Yes, No", order=M_order++ /> themes_override_transitions="Yes"
+	</ label="Animated backgrounds", help="Use background transitions", options="Yes, No", order=M_order++ /> themes_animated_backgrounds="Yes"
+	</ label="Theme aspect", help="Stretch or Center the theme on the screen", options="Stretch, Center", order=M_order++ /> themes_aspect="Stretch"
+	</ label="Show bezels", help="If display is centered, use bezels to replace pixel stretched border", options="Yes, No", order=M_order++ /> themes_bezels="Yes"
+	</ label="Bezels on top", help="Put bezel on top of the theme artworks", options="Yes, No", order=M_order++ /> themes_bezels_on_top="Yes"
+	</ label="Background stretch", help="Always stretch backgrounds", options="Yes, No", order=M_order++ /> themes_background_stretch="No"
+	</ label="Show game info", help="Show or hide game info", options="Yes, No", order=M_order++ /> themes_infos_visibility = "Yes"
+	</ label="Game info coordinates", help="Game info x,y coordinates on the screen. If empty = left bottom", options="", order=M_order++ /> themes_infos_coord = "25,810"
 	</ label="Show manufacturer name", help="Show manufacturer name if available", options="Yes,No", order=M_order++ /> enable_game_manu="Yes";
 	</ label="Enable random text colors", help="Enable game info random text colors", options="Yes,No", order=M_order++ /> enable_colors="No";
 	</ label= divider, help=" ", options = " ", order=M_order++ /> paramxx3 = " "
 
-    </ label="Reload backgrounds", help="Force reloading background transitions when navigating on default theme", options="Yes, No", order=M_order++ /> themes_reload_backgrounds = "No"
-    </ label="Video CRT special effect", help="Add crt special effect to video snap", options="Yes, No", order=M_order++ /> themes_crt_scanline = "No"
+	</ label="Reload backgrounds", help="Force reloading background transitions when navigating on default theme", options="Yes, No", order=M_order++ /> themes_reload_backgrounds = "No"
+	</ label="Video snap CRT effect", help="Enable CRT special effect for video snaps", options="Yes, No", order=M_order++ /> themes_crt_scanline = "No"
 	</ label= divider, help=" ", options = " ", order=M_order++ /> paramxx4 = " "
 
-    </ label="Special artwork", help="Enable or disable the special artwork (if set to 'No', special artwork is disabled globally)", options="Yes, No", order=M_order++ /> special_artworks = "Yes"
+	</ label="Special artwork", help="Enable or disable the special artwork (if set to 'No', special artwork is disabled globally)", options="Yes, No", order=M_order++ /> special_artworks = "Yes"
 	</ label= divider, help=" ", options = " ", order=M_order++ /> paramxx5 = " "
 
-    </ label="Search key", help="Choose the key to initiate a search", options="custom1,custom2,custom3,custom4,custom5,custom6,none", order=M_order++ />keyboard_search_key="custom1";
-    </ label="Search results", help="Choose the search method", options="show_results,next_match", order=M_order++ />keyboard_search_method="show_results";
-    </ label="Keyboard layout", help="Choose the keyboard layout", options="qwerty,azerty,alpha", order=M_order++ />keyboard_layout="alpha";
+	</ label="Search key", help="Choose the key to initiate a search", options="custom1,custom2,custom3,custom4,custom5,custom6,none", order=M_order++ />keyboard_search_key="custom1";
+	</ label="Search results", help="Choose the search method", options="show_results,next_match", order=M_order++ />keyboard_search_method="show_results";
+	</ label="Keyboard layout", help="Choose the keyboard layout", options="qwerty,azerty,alpha", order=M_order++ />keyboard_layout="alpha";
 }
 
 local t = clock()
