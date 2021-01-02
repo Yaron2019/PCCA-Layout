@@ -34,34 +34,37 @@ Unified video themes can be used. Place videos named as system name / rom name i
 ### Media Path
 Path to your hyperspin media, for example c:\attract\layouts\pcca\media
 
+### Low GPU mode
+Low GPU (Intel HD,.. less backgrounds transition)
 
-### Animated Backgrounds
-Enable or disable bakgrounds transitions.
+### Interface language
+Preferred user language (English or French at the moment)
 
-### Aspect
-Stretched or centered theme.
+### Main menu stats
+Enable or disable the main menu stats system: game counting, number of times played, total play time
 
-### Bezels
-Display or hide bezel.
+### Wheel offset
+Wheel's X Offset ocoordinates
 
-### Bezels On Top
-Put bezel on top of the theme background or below.
+### Wheel transition time
+Time in milliseconds for wheel spin
 
-### Background Stretch
-'Yes': Strecth Background only (some themes with video frame in background may look distorted with this option enabled).
+### Wheel fade time
+Time in seconds for wheel fade out (0 disables fading)
 
-'Main Menu': Stretch background only when you are in main menu wheel.
+### Wheel fade alpha
+Alpha value of the faded wheel
 
-### Game Info Coordinates
-Provide x,y coordinates for game info surface display. If empty, game info is positioned at the bottom left (default).
+### Show wheel pointer
+Show or hide wheel pointer
 
-### Language
+### Wheel pointer position
+Minimal or Nomral wheel pointer position
 
-Select your language for some text translation present in game info. 
-'En' or 'Fr', English and French are currently supported.
+### Wheel sounds
+Enable sounds when navigating the wheel
 
-### Override Transitions (Yes / No)
-
+### Override transitions
 Use flv transition videos placed in folder -> \Media\Frontend\Video\Transitions
 
 If you think a certain transtion would look great for a certain game, then you can make a copy of that transition to 
@@ -69,25 +72,52 @@ your \Media\{SYSTEME NAME}\Video\Override Transitions folder and rename the vide
 
 If you give a transition the same name as one of your genre categories you will see the transtion when a game match the category if no other transition is available for that game.
 
+### Animated backgrounds
+Use background transitions
 
-### Themes Wait For Override 
-Themes load after Override Transition has played ( Not implemented yet)
+### Theme aspect
+Stretch or Center the theme on the screen
 
-### Media Path
-This option should point to your hyperspin media path. If empty, the media folder must be in the 'pcca' layout directory.
+### Show bezels
+If display is centered, use bezels to replace pixel stretched border
 
-example:
+### Bezels on top
+Put bezel on top of the theme artworks
 
-If your HyperSpin installation is on c: ,media path should be:
- 
-`C:/Hyperspin/Media`
+### Background stretch
+'Yes': Strecth Background only (some themes with video frame in background may look distorted with this option enabled).
 
-If want to put hyperspin media in the 'pcca' layout folder, leave the media path opption empty and themes will look for media at:
+'Main Menu': Stretch background only when you are in main menu wheel.
 
-`C:/attract-mode/layouts/pcca/Media`
+### Show game info
+Show or hide game info
+
+### Game info coordinates
+Game info x,y coordinates on the screen. If empty = left bottom
+
+### Show manufacturer name
+Show manufacturer name if available
+
+### Enable random text colors
+Enable game info random text colors
+
+### Reload backgrounds
+Force reloading background transitions when navigating on default theme
+
+### Video CRT special effect
+Add crt special effect to video snap
+
+### Special artwork
+Enable or disable the special artwork (if set to 'No', special artwork is disabled globally)
+
+### Search key
+Choose the key to initiate a search
+
+### Search results
+Choose the search method
+
 
 ## Media
-
 
 ### Folders structure
 Identical to Hyperspin.
