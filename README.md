@@ -224,8 +224,6 @@ start=none
 default media extension is swf, as in hyperspin.
 default alignement is bottom center.
 
-### Tags
-2 tags are available: 'completed' and 'fail'. These tags are displayed in the on-screen game info area (bottom left corner by default). You can add your own png file named as your tag name in pcca/images/tags (must be in .png format).
 
 ## Known Issues:
 - axis rotation for video snap (AM does not have z-axis property for axis rotation ).
@@ -235,7 +233,7 @@ default alignement is bottom center.
 - crash sometime occurs with some swf backgrounds, it's due to a buggy swf implementation in Attract-Mode, not the pcca script itself.
 
 
-### How To Use:
+## How To Use:
 1. Download the latest PCCA layout from this repository.
 
 Optional: download video transitions pack I have prepared:
