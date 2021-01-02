@@ -3,6 +3,9 @@
 ### Version 1.15 
 This script is intended to work with the Attract-Mode frontend http://attractmode.org/ , it intends to reproduce the real hyperspin experience in HD as precise as possible using the same themes and folder structure as a real Hyperspin setup.
 
+PCCA's Attract Mode official forum thread:
+http://forum.attractmode.org/index.php?topic=3526.0
+
 Hypertheme can be used to build new themes or you can build your own with a higher resolution than hyperspin's default 1024x768.
 
 ## Video
